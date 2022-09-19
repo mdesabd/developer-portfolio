@@ -78,18 +78,43 @@ p {
 }
 
 .web-dev-exp {
-    box-sizing: border-box;
+    width: 40%;
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 30px;
     padding-bottom: 75px;
     padding-right: 30px;
-    border-radius: 30px;
-    box-shadow: 1px 1px 10px 10px grey;
-    /*ata blur korar tag,
-    box shado color korar tag*/
+    border-radius: 18px;
+    box-shadow: 0px 0px 10px 12px lightgray;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
 }
+
+/*ata blur korar tag,
+    box shado color korar tag*/
+#baby-gradient {
+    border-left: 12px solid;
+    border-image: linear-gradient(rgb(248, 133, 1), rgb(243, 3, 3));
+    border-image-slice: 1;
+}
+
+
+#web-gradient {
+    border-left: 12px solid;
+    border-image-slice: 1;
+    border-image: linear-gradient(rgb(58, 7, 240), rgb(57, 243, 234));
+    border-image-slice: 1;
+
+}
+
+/* এই gradiant নিয়ে আনেক কষ্ট করসি্‌     ......।। মাথাতা আমার আবেথা ধরে গেছেরে্‌ ...।। খুবি খারাপ লাগতেছিল .........অবশেষে i have done,,,, alhamdulillah */
+
+
 
 footer p {
     text-align: center;
 }
+
+/* ফুতার এর মধহে মধ্যে কে আছে তার জন্য কমান্ড */
